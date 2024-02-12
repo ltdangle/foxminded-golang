@@ -1,0 +1,16 @@
+{
+  "version": "2",
+  "sql": [
+    {
+      "schema": "schema.sql",
+      "queries": "query.sql",
+      "engine": "mysql",
+      "gen": {
+        "go": {
+          "out": "pkg/db",
+          "emit_json_tags": true
+        }
+      }
+    }
+  ]
+}
